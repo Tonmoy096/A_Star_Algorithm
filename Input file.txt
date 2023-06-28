@@ -1,4 +1,5 @@
-Arad 366 Zerind 75 Timisoara 118 Sibiu 140
+Arad 366 Zerind 75 Sibiu 140 Timisoara 118
+Zerind 374 Oradea 71 Arad 75
 Craiova 160 Dobreta 120 RimnicuVilcea 146 Pitesti 138
 Eforie 161 Hirsova 86
 Fagaras 176 Sibiu 99 Bucharest 211
