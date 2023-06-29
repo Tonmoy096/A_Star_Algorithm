@@ -114,19 +114,19 @@ def get_neighbors(v):
 def heuristic(n):
     H_dist = {}
     file2 = open("Input file.txt", "r")
-    for abar_line_niba_ekhane in file2:
-        line = abar_line_niba_ekhane.split(" ")
-        location = line[0].strip()
+    for line in file2:
+        line1 = line.split(" ")
+        location = line1[0].strip()
         location = location.lower()
-        linear_distance = int(line[1])
+        linear_distance = int(line1[1])
         H_dist[location[0]] = linear_distance
 
     return H_dist[n]
 
 Graph_nodes = {}
 file1 = open("Input file.txt", "r")
-for line_niba_ekhane in file1:
-    line_list = line_niba_ekhane.split(" ")
+for line in file1:
+    line_list = line.split(" ")
     city_count = int(len(line_list) / 2)
     for i in range(city_count):
         city1 = line_list[0].lower()
